@@ -5,13 +5,29 @@
   }
 
   #main-outlet {
-    width: unset;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    margin-top: unset;
+    padding-top: unset;
   }
 
-  header.d-header .contents {
-    width: unset;
+  header.d-header {
+
+    >.wrap {
+      width: 85%;
+    }
+
+   .contents {
+     width: unset;
+     .title .search-header {
+       flex: unset;
+     }
+   }
+  }
+
+  .login-modal .modal-middle-container, .mobile-app-login-modal .create-account .modal-middle-container {
+    padding-top: 3em;
   }
 }
