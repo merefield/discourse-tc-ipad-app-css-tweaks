@@ -44,7 +44,7 @@ export default {
               buttons.push(
                 this.attach("flat-button", {
                   action: "goHome",
-                  icon: "house",
+                  icon: "home",
                   className: "btn-large",
                   title: "footer_nav.home",
                 })
